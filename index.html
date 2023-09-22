@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento onclick</title>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <div class="navegador">
+            <h1>Dojonary</h1>
+            <input type="text" name="buscar" value="Search">
+            <button onclick="logout(this)" class="btn" >Login</button>
+        </div>
+        <div class="diccionario">
+            <div class="ninja">
+                <div class="izquierda">
+                    <h1>ninja</h1>
+                    <div class="significado">
+                        <h3>noun</h3>
+                        <p>plural: ninjas</p>
+                    </div>
+                    <button onclick="like(this)" class="boton">13 likes</button>
+                </div>
+                <div class="derecha">
+                    <h4>A practitioner skilled in the <a href="#" class="marca">Japanese</a> art of <a href="#" class="marca">ninjutsu</a> </h4>
+                </div>
+            </div>
+            <div class="ninjo">
+                <div class="izquierda">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <p>plural: ninjas</p>
+                    <button onclick="like(this)" class="boton">37 likes</button>
+                </div>
+                <div class="derecha">
+                    <h4>A <a href="#" class="marca">programmer</a> who breaks down problems with <a href="#" class="marca">zen</a>-like focus </h4>
+                </div>
+            </div>
+        </div>
+        <div class="definicion">
+            <h2>Dojonary is defined by YOU</h2>
+            <input onclick="remover(this)" type="submit" value="Add Definition" class="enviar">
+        </div>
+        
+    </body>
+    <script src="index.js"></script>
+</html> 

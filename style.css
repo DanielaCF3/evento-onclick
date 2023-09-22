@@ -1,0 +1,65 @@
+body{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.navegador{
+    background-color: rgb(155, 154, 154) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.btn{
+    background-color: rgb(83, 146, 148);
+    color: white;
+}
+.ninja, .ninjo{
+    border: 3px solid black;
+    width: 600px;
+    margin-left: none;
+    margin: 20px;
+    
+}
+.izquierda, .derecha{
+    display:inline-block;
+    text-align: center;
+    
+}
+.izquierda{
+    padding-left: 15px;
+    
+    
+}
+.boton{
+    padding: 5px;
+    background-color: rgb(147, 112, 180);
+    font-weight: bold;
+}
+.derecha{
+    flex:2;
+    position: relative;
+    bottom: 50px;
+    padding-left: 15px;
+    
+}
+.definicion{
+    border: 3px solid black;
+    width: 180px;
+    padding-bottom: 10px;
+    padding: 8px;
+    position: relative;
+    bottom: 275px;
+}
+.enviar{
+
+    height: 37px;
+    background-color: rgb(231, 207, 101);
+    font-weight: bold;
+    margin-left: 30px ;
+
+}
+.diccionario, .definicion{
+    display: inline-block;
+}
